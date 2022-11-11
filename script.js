@@ -41,7 +41,8 @@ updateImg.onclick = (function (){
 //update the userInput variable by saving the value of the input
 //use the insertAdjacentHTML method to append the userInput in a <p> tag
 messageButton.onclick = (function (){  
-
+userInput = input.value;
+  message.insertAdjacentHTML(‘before end’, userInput);
 });
 
 

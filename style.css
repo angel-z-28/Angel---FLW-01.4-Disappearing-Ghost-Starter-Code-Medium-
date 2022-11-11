@@ -1,5 +1,6 @@
 img {
   width: 300px;
+  background-color: yellow;
 }
 
 h1 {
@@ -39,3 +40,6 @@ button {
 .name-button {
     background-color: #17d3ff;
 }
+ body{
+  background-color: yellow;
+ }
